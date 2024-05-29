@@ -1,0 +1,18 @@
+body{
+    font-family: 'Ink Free';
+    background-image: url("./bacgrounds/צהוב\ אדום.jpg");
+    background-size: cover;
+    font-size: larger;
+}
+
+#instructions{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    color: #bbffff;
+   padding: 10px 10%;
+   text-align: center;
+}
+.btn{
+    width: 50%;
+    justify-self: center;
+}

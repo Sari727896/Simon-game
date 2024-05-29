@@ -1,0 +1,244 @@
+body {
+   background-image: url(../bacgrounds/101.webp);
+   background-size: cover;
+
+
+  } 
+  .letter {
+    animation-name: breit;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    font-size: 1000%;
+    font-family: 'SorbetLTD';
+  }
+  .title{
+    display: grid;
+    grid-template-columns: repeat(2,400px);
+    position: fixed;
+    left: 35%;
+    bottom: 10%;
+    
+  }
+  .word1{
+    position: fixed; 
+    top: -20px;
+  }
+  @keyframes breit {
+    from {
+      font-variation-settings: "wght" 100; 
+      color:yellow; }
+    to {
+      font-variation-settings: "wght" 1000; 
+      color: red; }
+  }
+  #a1 {
+    animation-delay: 0.125s;
+    size: 1000%;
+    
+  }
+  #a2 {
+    animation-delay: 0.25s;
+  }
+  #a3 {
+    animation-delay: 0.375s;
+    size: 1000%;
+    font-family: 'SorbetLTD';
+  }
+  #a4 {
+    animation-delay: 0.5s;
+    size: 1000%;
+    font-family: 'SorbetLTD';
+  }
+  #a5 {
+    animation-delay: 0.625s;
+    size: 1000%;
+    font-family: 'SorbetLTD';
+  } 
+.toggle {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.button {
+  border-radius: 50% !important;
+  font-size: 1.5em;
+  background-color: lightgray;
+}
+#switches {
+  position: absolute;
+  font-family: 'Original Surfer', cursive;
+  margin-left: 26px;
+  margin-top: 110px;
+}
+.text2 {
+  position: absolute;
+  font-family: 'Original Surfer', cursive;
+  margin-left: 90px;
+  margin-top: 197px;
+}
+.text1 {
+  position: absolute;
+  font-family: 'Original Surfer', cursive;
+  margin-left: 19px;
+  margin-top: 142px;
+  color: white;
+  font-family: Imprint MT Shadow;
+}
+#onText{
+  color: rgb(0, 170, 255);
+}
+#strictText{
+  color: yellow;
+}
+.text1 span:last-child {
+  padding-left: 70px;
+}
+#title {
+  font-family: Arial Rounded MT;
+  position: absolute;
+  font-size: 40px;
+  margin-left: 35px;
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+#turn {
+  position: absolute;
+  background: red;
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: courier;
+  font-size: 15px;
+  height: 30px;
+  width: 50px;
+  margin-left: 100px;
+  margin-top: 170px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  border-radius: 25%;
+}
+#outer-circle {
+  background: red;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  border-style: solid;
+  border-width: 10px;
+  margin: auto;
+  margin-top: 110px;
+  box-shadow: 10px 10px 20px 15px pink;
+}
+#topleft {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 250px 0 0 0;
+  -moz-border-radius: 250px 0 0 0;
+  -webkit-border-radius: 250px 0 0 0;
+  background: green;
+  top: 50%;
+  left: 50%;
+  margin: -250px 0px 0px -250px;
+  border-style: solid;
+  border-width: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+#topright {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 0 250px 0 0;
+  -moz-border-radius: 0 250px 0 0;
+  -webkit-border-radius: 0 250px 0 0;
+  background: red;
+  top: 50%;
+  left: 50%;
+  margin: -250px 0px 0px 0px;
+  border-style: solid;
+  border-width: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+#bottomleft {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 0 0 0 250px;
+  -moz-border-radius: 0 0 0 250px;
+  -webkit-border-radius: 0 0 0 250px;
+  background: rgb(218, 190, 32);
+  top: 50%;
+  left: 50%;
+  margin: 0px -250px 0px -250px;
+  border-style: solid;
+  border-width: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+#bottomright {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 0 0 250px 0;
+  -moz-border-radius: 0 0 250px 0;
+  -webkit-border-radius: 0 0 250px 0;
+  background: blue;
+  top: 50%;
+  left: 50%;
+  margin: 0px 0px -250px 0px;
+  border-style: solid;
+  border-width: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+#inner-circle {
+  position: absolute;
+  background:black;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  border-style: solid;
+  border-width: 10px;
+  top: 50%;
+  left: 50%;
+  margin: -125px 0px 0px -125px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+#start{
+  background-color: green;
+  border-color: aqua;
+  font-family: Arial Rounded MT;
+  color: aqua;
+}
+#cup
+{
+  position: fixed;
+  right: 10%;
+  bottom: 30%;
+}
+#cry
+{
+  position: fixed; 
+  bottom: 30%;
+  right: 5%;
+}
+#score{
+  display: block;
+  font-size: 300%;
+  color: black;
+  font-family: 'Ink Free';
+  color:rgb(255, 47, 0) ;
+}
