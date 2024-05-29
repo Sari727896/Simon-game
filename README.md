@@ -4,8 +4,8 @@ Welcome to the Simon Game repository! This project is a JavaScript implementatio
 
 ## How to Play
 1. Clone the repository to your local machine.
-2. Open the `index.html` file in your web browser.
-3. Follow the on-screen instructions to start playing.
+2. Open the html folder.
+3. Open the  instructions.htm page to start playing.
 
 ## Contributing
 Contributions are welcome! If you have any suggestions, bug fixes, or feature requests, feel free to open an issue or submit a pull request.
